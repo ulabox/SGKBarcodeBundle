@@ -1,0 +1,40 @@
+{
+  "name": "ulabox/barcode-bundle",
+  "type": "symfony-bundle",
+  "description": "Symfony2 Barcode Generator Bundle with Twig function extension",
+  "keywords": [
+    "Symfony2",
+    "barcode",
+    "Symfony",
+    "Bundle",
+    "Twig",
+    "generator",
+    "qrcode",
+    "qr code"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dinesh Rabara",
+      "email": "dinesh.rabara@gmail.com"
+    },
+    {
+      "name": "SHANG Guokan",
+      "email": "shangguokan@hotmail.com",
+      "homepage": "https://github.com/shangguokan"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.2",
+    "symfony/framework-bundle": "~2.3",
+    "symfony/twig-bundle": "~2.3",
+    "symfony/options-resolver": "~2.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.5.0"
+  },
+  "autoload": {
+    "psr-4": { "SGK\\BarcodeBundle\\": "" }
+  },
+  "minimum-stability": "stable"
+}
