@@ -19,24 +19,7 @@ Features:
 
 Add SGKBarcodeBundle by running the command:
 ```sh
-// Symfony version < 2.7
-$ php composer.phar require sgk/barcode-bundle:~1.0
-
-// Symfony version >= 2.7
-$ php composer.phar require ulabox/barcode-bundle:~2.0
-```
-
-Or, add SGKBarcodeBundle to your ``composer.json``, then execute ``php composer.phar update``
-```json
-// Symfony version < 2.7
-"require": {
-        "ulabox/barcode-bundle": "~1.0"
-    }
-
-// Symfony version >= 2.7
-"require": {
-        "ulabox/barcode-bundle": "~2.0"
-    }
+$ php composer.phar require ulabox/barcode-bundle:~3.0
 ```
 
 Composer will install the bundle to your project's vendor/ulabox directory.
