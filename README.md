@@ -19,7 +19,7 @@ Features:
 
 Add SGKBarcodeBundle by running the command:
 ```sh
-$ php composer.phar require ulabox/barcode-bundle:~3.0
+$ php composer.phar require ulabox/barcode-bundle:~4.0
 ```
 
 Composer will install the bundle to your project's vendor/ulabox directory.

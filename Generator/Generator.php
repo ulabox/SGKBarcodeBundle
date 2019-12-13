@@ -66,7 +66,6 @@ class Generator
     public function generate($options = array())
     {
         $options = $this->resolver->resolve($options);
-
         if (Type::getDimension($options['type']) == '2D') {
             return call_user_func_array(
                 array(
